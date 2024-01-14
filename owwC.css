@@ -1,0 +1,18 @@
+
+
+div {
+    display: grid;
+    place-items: center;
+}
+
+img {
+    width: 70%;
+    border-radius: 50%;
+    padding: 15px;
+    transition: 0.6s;
+    filter: grayscale(100%);
+}
+
+img:hover {
+    filter: grayscale(0%);
+}
