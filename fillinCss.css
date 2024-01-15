@@ -1,25 +1,51 @@
 div{
     background: transparent;
     backdrop-filter: blur(03px);
-    display: grid;
-    place-items: center ;
+    display: flex;
+    justify-self: left;
+    padding: 1px 10px;
 
     width: 70%;
     border-radius: 10%;
     border: 1px outset #e39f16;
     
 }
-*{ 
+label{
+    
+    color: rgb(229, 212, 144);
 
-    width: min(90%,950px);
+
+}
+*{ place-items: center;
+box-sizing: border-box;
+    width: min(95%,950px);
     box-sizing: border-box;
 }
+
 #se{background-color: bisque;
-    width: 30%;
-    color: rgb(160, 132, 41);
+    width: 60px;
+
 }
-body {  background-image:url("HD wallpaper_ sun, flower, yellow flowers, grass, sky, sunset, flower field.jpeg");  background-repeat:repeat-y;}
+body {  background-image:url("HD wallpaper_ sun, flower, yellow flowers, grass, sky, sunset, flower field.jpeg");  background-size:cover;}
 input,select{
  
     background: #ccd5a3;
+}
+p{
+   
+list-style: inside circle;
+    background: rgb(221, 154, 30);
+    backdrop-filter: brightness(160%);
+    padding: 15px;
+    border-radius: 10px;
+    width: 35%;
+    place-self: 3fr 3fr;
+}
+ul {
+    list-style: inside circle;
+    background: rgb(221, 154, 30);
+    backdrop-filter: brightness(160%);
+    padding: 10px;
+    width: 110px;
+    border-radius: 10%;
 }
