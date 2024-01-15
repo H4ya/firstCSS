@@ -1,0 +1,25 @@
+div{
+    background: transparent;
+    backdrop-filter: blur(03px);
+    display: grid;
+    place-items: center ;
+
+    width: 70%;
+    border-radius: 10%;
+    border: 1px outset #e39f16;
+    
+}
+*{ 
+
+    width: min(90%,950px);
+    box-sizing: border-box;
+}
+#se{background-color: bisque;
+    width: 30%;
+    color: rgb(160, 132, 41);
+}
+body {  background-image:url("HD wallpaper_ sun, flower, yellow flowers, grass, sky, sunset, flower field.jpeg");  background-repeat:repeat-y;}
+input,select{
+ 
+    background: #ccd5a3;
+}
